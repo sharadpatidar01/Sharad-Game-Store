@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Store</title>
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="/CSS/navbar_footer.css" />
+    <link rel="stylesheet" href="/CSS/logIn_signUp.css" />
+
+    <!-- Fontawesome Links -->
+    <link rel="stylesheet" href="https://kit.fontawesome.com/5afb58dcda.css" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/5afb58dcda.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Code for Navbar -->
+    <nav id="navbar">
+        <div id="title">
+            <img src="images/logo.png" alt="logo" />
+            <div>Game Store</div>
+        </div>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+        </ul>
+        <div id="btn-box">
+            <a href="./Login.html">
+                <button type="submit" id="btn">Log In</button>
+            </a>
+            <a href="./SignUp.html">
+                <button type="submit" id="btn">Sign Up</button>
+            </a>
+            <i id="hamburger-menu" class="fa fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- SignUp Form -->
+    <section id="logIn-signUp-form">
+        <div id="logIn-signUp">
+            <h1>Sign Up for Free</h1>
+            <form action="/" method="post">
+                <div class="field-wrap">
+                    <label for="name"><i class="fa fa-solid fa-user"></i></label>
+                    <input type="name" id="name" placeholder="Enter Your Name" required autocomplete="off" />
+                </div>
+                <div class="field-wrap">
+                    <label for="email"><i class="fa fa-solid fa-envelope"></i></label>
+                    <input type="email" id="email" placeholder="Enter Your Email Address" required autocomplete="off" />
+                </div>
+                <div class="field-wrap">
+                    <label for="mob"><i class="fa-solid fa-phone"></i></label>
+                    <input type="tel" id="mob" placeholder="Enter Your Phone Number" required autocomplete="off" />
+                </div>
+                <div class="field-wrap">
+                    <label for="password"><i class="fa fa-solid fa-lock"></i></label>
+                    <input type="password" id="password" placeholder="New Password" required autocomplete="off" />
+                </div>
+                <div class="field-wrap">
+                    <label for="confirmPassword"><i class="fa fa-solid fa-lock"></i></label>
+                    <input type="password" id="confirmPassword" placeholder="Confirm password" required
+                        autocomplete="off" />
+                </div>
+                <button type="submit" class="button button-block">Sign Up</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="webright">
+            <span class="name"><a href="/index.html">Sharad Game Store</a> &nbsp</span>
+            <span class="copy">| Copyright © 2023 SharadGameStore.com |</span>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-brands fa-instagram"></i></a>
+            <a href="https://www.github.com/" target="_blank"><i class="fa fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-brands fa-facebook"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>

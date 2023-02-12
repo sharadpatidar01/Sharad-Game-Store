@@ -1,0 +1,206 @@
+/* Home Section CSS */
+#home {
+  background: url(../images/bg.jpg) no-repeat left center;
+  background-size: 100vw auto;
+  border: 1px solid transparent;
+  text-align: left;
+  font-size: 16px;
+}
+
+.home-box {
+  width: 92%;
+  margin: 15% auto;
+  text-align: left;
+}
+
+.home-box h1 {
+  font-size: 3em;
+  color: #045174;
+}
+
+.home-box p {
+  display: inline;
+  color: #f8dcbf;
+  background-color: #04517458;
+  font-size: 1.2em;
+  font-weight: 200;
+  padding: 5px;
+  
+}
+
+.home-box button {
+  display: block;
+  color: #f8dcbf;
+  background-color: #045174;
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-weight: 100;
+  margin: 20px 0px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.home-box button:hover {
+  color: #045174;
+  background-color: transparent;
+  border: 1px solid #045174;
+  cursor: pointer;
+}
+
+/* Games Cards Section */
+#games {
+  text-align: center;
+  padding: 2%;
+  color: #045174;
+}
+#games > h3 {
+  font-size: 46px;
+  margin: 32px auto;
+  border-bottom: 2px solid #045174;
+  width: 300px;
+}
+
+#games-card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  gap: 60px 0px;
+}
+
+.card {
+  width: 250px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  height: 150px;
+}
+
+.card-info {
+  padding: 10px 10px 0px 10px;
+  text-align: left;
+}
+
+.card-info p {
+  font-size: 12px;
+  text-align: justify;
+  padding: 0px 0px 10px 0px;
+}
+
+.card button {
+  background-color: #045174;
+  border: 1px solid transparent;
+  padding: 8px;
+  color: #f8dcbf;
+  width: 100%;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-image: linear-gradient(to bottom, #f8dcbf, transparent);
+}
+
+.card button:hover {
+  color: #045174;
+  background-color: transparent;
+  border: 1px solid #045174;
+}
+
+/* User Reviews */
+#reviews {
+  background-color: #045174;
+  color: #f8dcbf;
+  text-align: center;
+  padding: 2% 2% 40px 2%;
+}
+
+#reviews > h3 {
+  font-size: 40px;
+  margin: 32px auto;
+  border-bottom: 2px solid #045174;
+  width: 350px;
+  width: 300px;
+}
+
+#reviews-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+  background-color: #f8dcbf;
+  color: #045174;
+  padding: 10px;
+  box-shadow: -2px -2px rgba(0, 0, 0, 0.441);
+}
+.user-card:hover {
+  border-radius: 50% 0px 0px 50%;
+}
+.user-card:hover .fa-solid {
+  font-size: 20px;
+}
+.user-card img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #045174;
+  border-radius: 50%;
+}
+
+.user-card div {
+  width: 139px;
+  margin: 10px;
+  text-align: left;
+}
+.user-card p {
+  font-size: 10px;
+  text-align: justify;
+}
+.user-info div {
+  margin: 0;
+}
+
+/* Media Query for Tablet Navbar */
+@media screen and (max-width: 830px) {
+  /* For Home Section */
+  .home-box h1 {
+    font-size: 2em;
+  }
+
+  .home-box p {
+    font-size: 0.8em;
+  }
+
+  /* Games Sections */
+  #games > h3 {
+    font-size: 26px;
+    width: 200px;
+  }
+
+  /* review Section */
+  #reviews > h3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* For Home Section */
+  .home-box h1 {
+    font-size: 1.1em;
+  }
+
+  .home-box p {
+    font-size: 0.2em;
+  }
+
+  .home-box button {
+    font-size: 0.3em;
+    margin: 8px 0px;
+    padding: 0.2rem 0.3rem;
+  }
+}

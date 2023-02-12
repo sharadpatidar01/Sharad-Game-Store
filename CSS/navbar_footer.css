@@ -1,0 +1,217 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Universal CSS */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar CSS */
+#navbar {
+  background-color: #045174;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0px;
+  border-bottom: 1px solid #f8dcbf;
+}
+
+#navbar a {
+  font-size: 1rem;
+  color: #f8dcbf;
+  font-weight: 400;
+}
+
+/* logo CSS */
+#title {
+  display: flex;
+  align-items: center;
+}
+
+#title img {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+}
+
+#title div {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #f8dcbf;
+  margin-left: 10px;
+}
+
+/* Menu bar CSS */
+#menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+}
+
+#menu li {
+  padding: 3px 1rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+#menu li:hover {
+  border-bottom: 2px solid #f8dcbf;
+}
+
+/* button CSS */
+#btn-box {
+  display: flex;
+  align-items: center;
+}
+
+#btn {
+  background-color: #f8dcbf;
+  color: #045174;
+  padding: 0.5rem 1rem;
+  margin: 0rem 0.3rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: #045174;
+  color: #f8dcbf;
+  border: 1px solid #f8dcbf;
+}
+
+/* Hamburger Menu CSS */
+#hamburger-menu {
+  font-size: 20px;
+  color: #f8dcbf;
+  z-index: 1;
+  cursor: pointer;
+  margin: 0px 0px 0px 10px;
+  display: none;
+}
+
+
+/* footer CSS */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 87%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    border-top:2px solid #045174 ;
+  }
+  
+  .webright {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  footer span {
+    font-size: 15px;
+    color: #045174;
+  }
+  
+  footer .name {
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  footer a {
+    color: #045174;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer .copy {
+    font-weight: 300;
+  }
+  
+  .social-icons i{
+    font-size: 26px;
+    margin: 0px 7px;
+    color: #045174;
+    padding: 5px;
+    border-radius: 10%;
+  }
+  
+  .social-icons i:hover {
+    background-color: #045174;
+    color: #f8dcbf;
+  }
+
+
+  /* Media Query for Tablet */
+@media screen and (max-width: 830px) {
+    /* Navbar CSS */
+    #navbar {
+      position: relative;
+      padding: 15px 15px;
+    }
+  
+    #title img {
+      width: 30px;
+      height: 30px;
+      margin: auto;
+    }
+  
+    #title div {
+      font-size: 1rem;
+    }
+  
+    #menu {
+      border-top: 2px solid #f8dcbf;
+      flex-direction: column;
+      background-color: #045174;
+      border-bottom-left-radius: 10px;
+      position: absolute;
+      z-index: 1;
+      top: 100%;
+      right: 0%;
+      width: 100px;
+      padding: 10px;
+      margin-left: 0;
+      display: none;
+    }
+  
+    #btn {
+      font-size: 10px;
+      padding: 0.5rem 0.5rem;
+    }
+  
+    #hamburger-menu {
+      display: block;
+    }
+  
+    #navbar:hover #menu {
+      display: block;
+    }
+  
+    /* footer CSS */
+    footer {
+      justify-content: center;
+    }
+  
+    footer span {
+      font-size: 11px;
+      display: block;
+      margin: auto;
+    }
+  
+    .social-icons {
+      margin: 10px;
+    }
+  }
