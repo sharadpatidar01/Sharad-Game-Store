@@ -20,11 +20,11 @@ Explore the game store here: [Sharad Game Store - Live Demo](https://sharadpatid
 
 Here are some screenshots of the project:
 
-1. ![Screenshot 1](https://github.com/sharadpatidar01/Sharad-Game-Store/blob/main/images/Screenshot_1.png)
-2. ![Screenshot 2](https://github.com/sharadpatidar01/Sharad-Game-Store/blob/main/images/Screenshot_2.png)
-3. ![Screenshot 3](https://github.com/sharadpatidar01/Sharad-Game-Store/blob/main/images/Screenshot_3.png)
-4. ![Screenshot 4](https://github.com/sharadpatidar01/Sharad-Game-Store/blob/main/images/Screenshot_4.png)
-5. ![Screenshot 5](https://github.com/sharadpatidar01/Sharad-Game-Store/blob/main/images/Screenshot_5.png)
+![Screenshot 1](https://github.com/sharadpatidar01/Sharad-Game-Store/blob/main/images/Screenshot_1.png)
+![Screenshot 2](https://github.com/sharadpatidar01/Sharad-Game-Store/blob/main/images/Screenshot_2.png)
+![Screenshot 3](https://github.com/sharadpatidar01/Sharad-Game-Store/blob/main/images/Screenshot_3.png)
+![Screenshot 4](https://github.com/sharadpatidar01/Sharad-Game-Store/blob/main/images/Screenshot_4.png)
+![Screenshot 5](https://github.com/sharadpatidar01/Sharad-Game-Store/blob/main/images/Screenshot_5.png)
 
 ## 🛠️ Technologies Used
 
